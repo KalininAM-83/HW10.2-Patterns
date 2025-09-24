@@ -3,7 +3,7 @@ import java.util.List;
 
 //класс кредитного конвейера
 public class CreditPipeline {
-    private List<CreditHandler> handlers = new ArrayList<>();
+    private final List<CreditHandler> handlers = new ArrayList<>();
 
     //цепочка обработчиков
     public CreditPipeline() {

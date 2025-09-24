@@ -1,10 +1,10 @@
 
 // Класс заявки на кредит
 public class CreditRequest {
-    private String clientName; //имя клиента
-    private int creditScore; //кредитный рейтинг
-    private double requestedAmount; //запрашиваемая сумма
-    private double income; //годовой доход
+    private final String clientName; //имя клиента
+    private final int creditScore; //кредитный рейтинг
+    private final double requestedAmount; //запрашиваемая сумма
+    private final double income; //годовой доход
     private boolean approved; //принята или отклонена
     private double approvedAmount; //сумма, которая была одобрена
     private String rejectionReason; //причина отказа
